@@ -123,12 +123,14 @@ button:hover {
     }
     .main-section{
         padding: 0 1rem;
-        max-width: 1000%;
+        max-width: 500%;
         height: auto;
         }
      
     .link{
         width: 100%;
         min-height: 50vh;
+        display:block;
+        margin:0.4em auto;
     }
 }
