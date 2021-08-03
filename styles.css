@@ -125,14 +125,15 @@ color: black;
     .main-section{
         padding: 0 1rem;
         max-width: 500%;
-        height: auto;
+        min-height: 100vh;
         }
      
     .link{
-        width: 70%;
+        width: 50%;
         display:block;
         position:relative;
-        margin: 2rem 6rem 0rem 3rem;
+        margin: 2rem 6rem 0rem 12rem;
+        text-align: center;
    
     }
     
