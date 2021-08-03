@@ -114,3 +114,13 @@ button:hover {
 
    
 }
+@media screen and (max-width:1023px) {
+    label{
+        display: inline-block;
+        border: none;
+        margin-bottom: 1rem;
+    }
+    .main-section{
+        padding: 0 1rem;
+    }
+}
