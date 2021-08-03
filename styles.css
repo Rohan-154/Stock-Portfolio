@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #A7F3D0;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0rem;
+    background-color: #F3F4F6;
+  
+   
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+
+}
+
+.input {
+    display: block;
+    margin:auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: none;
+    width: 30%;
+    height: 50px;
+    padding: 1rem;
+   
+    
+   
+}
+
+.main-section {
+
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 90%;
+    min-height: 90vh;
+    box-shadow: 0 40px 40px -10px grey;
+    background-color: var(--primary-color);
+    background-image: url("images/Stock-trends-Up-and-Down.svg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+  
+
+
+}
+
+label {
+    font-size: 1.6rem;
+    color: #F87171;
+  
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: bold ;
+
+}
+button{
+    background-color: #34D399;
+    border: none;
+  
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+  
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+   
+    margin: auto;
+    margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+button:hover{
+   background-color: #6B7280;
+    
+}
+.output{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold ;
+}
