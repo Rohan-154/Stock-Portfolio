@@ -47,7 +47,9 @@ h1 {
     background-image: url("images/Stock-trends-Up-and-Down.svg");
     background-repeat: no-repeat;
     background-size: 500px;
-    background-size: cover;
+    min-height: 80vh;
+    max-width: 90%;
+  
 
 
 
@@ -96,26 +98,24 @@ button:hover {
 }
 
 .link {
-    
-  
-    margin: 2rem 6rem 0rem 3rem;
-    font-weight: 500;
-    position: relative;
-    top: 1rem;
-    right: 0;
-    width: 200px;
-    text-align: center;
-    color: black;
-    border-radius: 0.5rem;
-    border: 2px solid #F87171;
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-   
+position: absolute;
+top: 8px;
+right: 16px;
+font-size: 18px;
+margin: 2rem 6rem 0rem 3rem; 
+border-radius: 0.5rem;
+border: 2px solid #F87171;
+box-sizing: border-box;
+text-decoration: none;
+padding: 0.5rem 1rem;
+color: black;
 
    
 }
-@media screen and (max-width:768px) {
+.link:hover{
+    background-color: #F87171;
+}
+@media screen and (max-width:1024px) {
     label{
         display: inline-block;
         border: none;
