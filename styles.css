@@ -120,6 +120,7 @@ button:hover {
         display: inline-block;
         border: none;
         margin-bottom: 1rem;
+        font-size:1rem;
     }
     .main-section{
         padding: 0 1rem;
@@ -129,9 +130,10 @@ button:hover {
      
     .link{
         width: 100%;
-        min-height: 50vh;
+        
         display:block;
         position:relative;
         
     }
+    
 }
