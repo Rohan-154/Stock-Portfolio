@@ -40,13 +40,14 @@ h1 {
 
     text-align: center;
     margin: 2rem auto;
-    max-width: 90%;
-    min-height: auto;
+    max-width: 100%;
+    height: auto;
     box-shadow: 0 40px 40px -10px grey;
     background-color: var(--primary-color);
     background-image: url("images/Stock-trends-Up-and-Down.svg");
     background-repeat: no-repeat;
     background-size: 500px;
+    background-size: cover;
 
 
 
@@ -122,6 +123,8 @@ button:hover {
     }
     .main-section{
         padding: 0 1rem;
+        max-width: 100%;
+    height: auto;
     }
     .link{
         width: 100%;
