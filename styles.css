@@ -41,7 +41,7 @@ h1 {
     text-align: center;
     margin: 2rem auto;
     max-width: 90%;
-    min-height: 90vh;
+    min-height: auto;
     box-shadow: 0 40px 40px -10px grey;
     background-color: var(--primary-color);
     background-image: url("images/Stock-trends-Up-and-Down.svg");
