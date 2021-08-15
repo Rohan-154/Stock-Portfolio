@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital@1&family=Oswald&display=swap');
 :root {
     --primary-color: #A7F3D0;
 }
@@ -10,6 +11,7 @@
 body {
     margin: 0rem;
     background-color: #F3F4F6;
+    font-family: 'Bebas Neue', cursive
 
 
 
