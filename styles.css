@@ -117,18 +117,18 @@ color: black;
 .link:hover{
     background-color: #F87171;
 }
-@media screen and (min-width:360px) {
-    label{
+@media screen and (max-width:360px) {
+    /* label{
         display: inline-block;
         border: none;
         margin-bottom: 1rem;
         font-size:1rem;
-    }
+    } */
     .main-section{
         padding: 0 1rem;
         max-width: 500%;
         min-height: 100vh;
-        }
+        } 
      
     .link{
         width: 50%;
@@ -138,18 +138,19 @@ color: black;
         text-align: center;
         margin-top: 0rem;
         margin-left: 6rem;
+        
        
        
    
     }
-    body{
+    /* body{
         background-image: url('images/Stock-trends-Up-and-Down.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
     
         }
-        
+         */
     
 }
 
